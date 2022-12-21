@@ -1,4 +1,4 @@
-# vue2-his
+# vue2-his管理系统
 
 ## Project setup
 ```
