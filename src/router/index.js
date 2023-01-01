@@ -119,27 +119,6 @@ const routes = [
 
 
   {
-    path: "/medical",
-    meta: { title: "医疗前线" },
-    component: () => import("@/views/layout/Layout.vue"),
-    redirect: "/medical/open",
-    children: [
-      {
-        path: "/medical/open",
-        meta: { title: "处方开具" },
-        component: () => import("@/views/medical/MedicalOpen.vue"),
-      },
-      {
-        path: "/medical/prescription",
-        meta: { title: "处方综合管理" },
-        component: () => import("@/views/medical/MedicalPrescription.vue"),
-      },
-    ],
-  },
-
-
-
-  {
     path: "/drugs",
     meta: { title: "医疗药品出入库" },
     component: () => import("@/views/layout/Layout.vue"),
